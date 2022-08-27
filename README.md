@@ -34,7 +34,8 @@ YoloV7-tiny | https://github.com/bubbliiiing/yolov7-tiny-pytorch
 | :-----: | :-----: | :------: | :------: | :------: | :-----: |
 | COCO-Train2017 | [yolov7_tiny_weights.pth](https://github.com/bubbliiiing/yolov7-tiny-pytorch/releases/download/v1.0/yolov7_tiny_weights.pth) | COCO-Val2017 | 640x640 | 36.8 | 54.4
 
-yolov7_tiny精度不如论文，具体可参考该issue：https://github.com/WongKinYiu/yolov7/issues/106。主要原因我认为有两点：   
+yolov7_tiny精度不如论文，具体可参考该issue：https://github.com/WongKinYiu/yolov7/issues/106  
+主要原因我认为有两点：   
 1. 使用的激活函数不同。   
 2. 使用的anchors不同。   
 
